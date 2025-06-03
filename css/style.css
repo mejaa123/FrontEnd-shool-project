@@ -14,7 +14,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    background: #6b9cf2;
+    background: #86adf0;
     overflow-x: hidden;
 }
 
@@ -55,7 +55,7 @@ img {
 }
 
 .navbar ul li a:hover {
-    color: var(--primary-color);
+    color: var(--dark-color);
 }
 
 .navbar ul li a i {
@@ -275,7 +275,7 @@ img {
 /* Card */
 .card {
     background: #fff;
-    color: #000;
+    color: #0d0d0d;
     border-radius: 10px;
     padding: 20px;
 }
