@@ -7,7 +7,7 @@
 :root {
     --primary-color: #6b9cf2;
     --light-color: #9ebdf1;
-    --dark-color: #727171;
+    --dark-color: #383838;
 }
 
 body {
@@ -362,7 +362,7 @@ img {
 
 .bg-light {
     background: var(--light-color);
-    color: #333;
+    color: #1c1b1b;
 }
 
 .bg-dark {
