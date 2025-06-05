@@ -6,8 +6,8 @@
 
 :root {
     --primary-color: #6b9cf2;
-    --light-color: #6b9cf2;
-    --dark-color: #111;
+    --light-color: #9ebdf1;
+    --dark-color: #727171;
 }
 
 body {
@@ -371,7 +371,7 @@ img {
 }
 
 .bg-black {
-    background: #000;
+    background: #1a1a1a;
     color: #fff; 
 }
 
