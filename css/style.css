@@ -102,6 +102,37 @@ img {
     margin-bottom: 20px; 
 }
 
+/* Slideshow from a tutorial: https: //www.youtube.com/watch?v=OatYK2j7gw8 */
+.slide {
+    margin-bottom: 50px;
+    width: 700px;
+    height: 450px;
+    float: left;
+}
+
+.slideshow {
+    width: 700px;
+    height: 450px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.slide_wrapper {
+    animation: slide 10s ease infinite;
+    width: calc(700px * 3);
+}
+
+@keyframes slide{
+    33% {
+        margin-left: 0px;
+    }
+    66% {
+        margin-left: calc(-700px*1);
+    }
+    99% {
+        margin-left: calc(-700px*2);
+    }
+}
 /* Testimonials */
 .testimonials {
     padding: 40px 0;
