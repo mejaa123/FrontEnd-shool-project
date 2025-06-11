@@ -83,8 +83,16 @@ img {
 }
 
 .hero .hero-text {
-    width: 70%;
+    width: 50%;
     margin-bottom: 20px; 
+}
+
+.hero .input[type='email'] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin: 40px 0;
 }
 
 /* Video */
@@ -102,7 +110,7 @@ img {
     margin-bottom: 20px; 
 }
 
-/* Slideshow from a tutorial: https: //www.youtube.com/watch?v=OatYK2j7gw8 */
+/* Slideshow from a tutorial: https: //www.youtube.com/watch?v=TzAshjkhFQw */
 .slide {
     margin-bottom: 50px;
     width: 700px;
@@ -112,7 +120,7 @@ img {
 
 .slideshow {
     width: 700px;
-    height: 450px;
+    height: 550px;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -120,6 +128,10 @@ img {
 .slide_wrapper {
     animation: slide 10s ease infinite;
     width: calc(700px * 3);
+}
+
+.slideshow .slideshow-preview {
+    margin-bottom: 20px;
 }
 
 @keyframes slide{
@@ -139,7 +151,7 @@ img {
 }
 
 .testimonials .testimonials-heading {
-    width: 700px;
+    width: 1000px;
     margin-bottom: 40px;
 }
 
