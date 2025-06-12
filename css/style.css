@@ -87,14 +87,6 @@ img {
     margin-bottom: 20px; 
 }
 
-.hero .input[type='email'] {
-    width: 100%;
-    padding: 10px;
-    border: 2px solid #ccc;
-    border-radius: 5px;
-    margin: 40px 0;
-}
-
 /* Video */
 .video {
     padding: 10px 0 40px;
@@ -516,7 +508,7 @@ img {
         margin-right: 0;
     }
 
-    .footer .footer-grid>div {
+    .footer .footer-grid > div {
         text-align: center;
     }
 
